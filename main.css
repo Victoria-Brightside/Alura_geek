@@ -1,20 +1,25 @@
 body {
     font-size: 24px;
     box-sizing: border-box;
+    background-color: whitesmoke;
 }
 
 header {
     display: flex;
-    background-color: blueviolet;
+    background-image: url(images/matrix.jpg);
+    background-size: 350px ;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    color:whitesmoke;
+    font-size: 2.5rem;
 }
 
 .supergrid {
     display: grid;
     grid-template-columns: 50vw 50vw;
     grid-template-rows: 50vh;
+    gap: 2rem;
 }
 
 .products {
@@ -26,7 +31,7 @@ header {
     display: flex;
     width: 100%;
     justify-content: center;
-background-color: tomato;
+    font-size: 2rem;
 }
 
 .container{
@@ -37,14 +42,17 @@ padding:1rem;
 }
 
 .card {
+    background-image: url(images/fire.jpg);
+    background-size: 400px;
     display: flex;
     flex-direction: column;
     align-content: center;
     text-align: center;
-    min-width: 200px;
+    flex: 200px;
     height: auto;
     border: 1px solid #000000;
     border-radius: 2rem;
+    color:white;
 }
 
 .card_img {
@@ -52,5 +60,32 @@ padding:1rem;
     height: 10rem;
     object-fit: cover;
     border-radius: 2rem;
+}
 
+.card-container-value{
+    display: flex;
+    justify-content: space-between;
+    padding:1rem;
+    
+}
+
+/* FORMULARIO */
+
+.add h1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.form-group{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:2rem;
+    border-radius: 1rem;
+}
+
+input {
+    width:50%;
+    border-radius: 2rem;
 }
