@@ -18,87 +18,28 @@
     <main class="supergrid">
         <section class="products">
             <h1> MIS PRODUCTOS:</h1>
-            <ul class="container">
-                <li class="card">
-                    <img src="images/goku.jpg" class="card_img">
-                    <div class="card-container-info">
-                        <p>Nombre</p>
-                        <div class="card-container-value">
-                            <p>$ 00.00</p>
-                            <img src="images/delete.svg" alt="Icono de basurero">
-                        </div>
-                    </div>
-                </li>
-
-                <li class="card">
-                    <img src="images/pokebola.jpg" class="card_img">
-                    <div class="card-container-info">
-                        <p>Nombre</p>
-                        <div class="card-container-value">
-                            <p>$ 00.00</p>
-                            <img src="images/delete.svg" alt="Icono de basurero">
-                        </div>
-                    </div>
-                </li>
-
-                <li class="card">
-                    <img src="images/bb8.jpg" class="card_img">
-                    <div class="card-container-info">
-                        <p>Nombre</p>
-                        <div class="card-container-value">
-                            <p>$ 00.00</p>
-                            <img src="images/delete.svg" alt="Icono de basurero">
-                        </div>
-                    </div>
-                </li>
-
-                <li class="card">
-                    <img src="images/charizard.jpg" class="card_img">
-                    <div class="card-container-info">
-                        <p>Nombre</p>
-                        <div class="card-container-value">
-                            <p>$ 00.00</p>
-                            <img src="images/delete.svg" alt="Icono de basurero">
-                        </div>
-                    </div>
-                </li>
-
-                <li class="card">
-                    <img src="images/mario.jpg" class="card_img">
-                    <div class="card-container-info">
-                        <p>Nombre</p>
-                        <div class="card-container-value">
-                            <p>$ 00.00</p>
-                            <img src="images/delete.svg" alt="Icono de basurero">
-                        </div>
-                    </div>
-                </li>
-
-                <li class="card">
-                    <img src="images/batman.jpg" class="card_img">
-                    <div class="card-container-info">
-                        <p>Nombre</p>
-                        <div class="card-container-value">
-                            <p>$ 00.00</p>
-                            <img src="images/delete.svg" alt="Icono de basurero">
-                        </div>
-                    </div>
-                </li>
+            <ul class="container" data-lista>
             </ul>
 
         </section>
-        
+
 
         <section class="add">
             <h1> AGREGAR PRODUCTO:</h1>
             <form>
                 <div class="form-group">
-                    <input id="name" name="name" type="text" placeholder="Nombre" required>
-                    <input id="price" name="price" type="number" placeholder="Precio" required>
-                    <input id="image" name="image" type="file" placeholder="Imagen" required>
+                    <input id="name" name="name" type="text" placeholder=" Nombre" required>
+                    <input id="price" name="price" type="number" placeholder=" Precio" required>
+                    <input id="image" name="image" type="text" placeholder=" Imagen" required>
+                    <div class="form-button">
+                        <input id="enviar" name="enviar" type="submit" value="ENVIAR">
+                        <input id="limpiar" name="limpiar" type="reset" value="LIMPIAR">
+                    </div>
                 </div>
         </section>
 
+        <script src="js/mostrarProductos.js" type="module"></script>
+        <script src="js/crearProducto.js" type="module"></script>
     </main>
 
 </body>

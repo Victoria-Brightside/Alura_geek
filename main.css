@@ -32,6 +32,7 @@ header {
     width: 100%;
     justify-content: center;
     font-size: 2rem;
+    padding:2rem;
 }
 
 .container{
@@ -66,7 +67,6 @@ padding:1rem;
     display: flex;
     justify-content: space-between;
     padding:1rem;
-    
 }
 
 /* FORMULARIO */
@@ -74,7 +74,10 @@ padding:1rem;
 .add h1{
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: start;
+    font-size: 2rem;
+    padding: 2rem;
+    margin-left:5rem;
 }
 
 .form-group{
@@ -83,9 +86,19 @@ padding:1rem;
     justify-content: center;
     gap:2rem;
     border-radius: 1rem;
+    padding:2rem;
+    margin-left:8rem;
 }
 
 input {
     width:50%;
     border-radius: 2rem;
+}
+
+.form-button{
+    display:flex;
+    gap:2rem;
+    width:40%;
+    padding:1rem;
+
 }
