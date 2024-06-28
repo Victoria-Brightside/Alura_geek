@@ -14,8 +14,17 @@ function crearCard(nombre, precio, imagen, id) {
                               <img src="images/delete.svg" alt="Icono de basurero" class="delete_img">
                             </button>
                         </div>
-                    </div>`
+                    </div>`;
 
+                    const eliminarBoton = producto.querySelector(".delete-button");
+eliminarBoton.addEventListener("click", async()=>{
+    try{
+        await conexionAPI.eliminarProducto(id);
+        producto.remove();
+    } catch (error) {
+        console.log(error);
+    }
+})
     return producto;
 }
 

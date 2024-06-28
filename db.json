@@ -1,18 +1,6 @@
 {
   "productos": [
     {
-      "nombre": "Goku",
-      "precio": "50.00",
-      "imagen": "images/goku.jpg",
-      "id": "1"
-    },
-    {
-      "nombre": "Pokebola",
-      "precio": "20.00",
-      "imagen": "images/pokebola.jpg",
-      "id": "2"
-    },
-    {
       "nombre": "BB8",
       "precio": "100.00",
       "imagen": "images/bb8.jpg",
@@ -37,16 +25,16 @@
       "id": "6"
     },
     {
-      "id": "5ac7",
+      "id": "1600",
       "nombre": "Goku",
       "precio": "55.00",
       "imagen": "images/goku.jpg"
     },
     {
-      "id": "2917",
-      "nombre": "Goku",
-      "precio": "55.00",
-      "imagen": "images/goku.jpg"
+      "id": "18f2",
+      "nombre": "Pokebola",
+      "precio": "200.00",
+      "imagen": "images/pokebola.jpg"
     }
   ]
 }
