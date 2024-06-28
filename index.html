@@ -26,11 +26,11 @@
 
         <section class="add">
             <h1> AGREGAR PRODUCTO:</h1>
-            <form>
+            <form class="formulario" data-formulario>
                 <div class="form-group">
-                    <input id="name" name="name" type="text" placeholder=" Nombre" required>
-                    <input id="price" name="price" type="number" placeholder=" Precio" required>
-                    <input id="image" name="image" type="text" placeholder=" Imagen" required>
+                    <input id="name" name="name" type="text" placeholder=" Nombre" required data-nombre>
+                    <input id="price" name="price" type="number" placeholder=" Precio (00.00)" required data-precio>
+                    <input id="image" name="image" type="text" placeholder=" Inserta URL" required data-imagen>
                     <div class="form-button">
                         <input id="enviar" name="enviar" type="submit" value="ENVIAR">
                         <input id="limpiar" name="limpiar" type="reset" value="LIMPIAR">

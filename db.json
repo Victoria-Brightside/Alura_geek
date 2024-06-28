@@ -2,39 +2,51 @@
   "productos": [
     {
       "nombre": "Goku",
-      "precio": "$ 50.00",
+      "precio": "50.00",
       "imagen": "images/goku.jpg",
-      "id": 1
+      "id": "1"
     },
     {
       "nombre": "Pokebola",
-      "precio": "$ 20.00",
+      "precio": "20.00",
       "imagen": "images/pokebola.jpg",
-      "id": 2
+      "id": "2"
     },
     {
       "nombre": "BB8",
-      "precio": "$ 100.00",
+      "precio": "100.00",
       "imagen": "images/bb8.jpg",
-      "id": 3
+      "id": "3"
     },
     {
-     "nombre": "Charizard",
-      "precio": "$ 30.00",
+      "nombre": "Charizard",
+      "precio": "30.00",
       "imagen": "images/charizard.jpg",
-      "id": 4
+      "id": "4"
     },
     {
       "nombre": "Mario",
-      "precio": "$ 70.00",
+      "precio": "70.00",
       "imagen": "images/mario.jpg",
-      "id": 5
+      "id": "5"
     },
     {
-     "nombre": "Batman",
-      "precio": "$ 120.00",
+      "nombre": "Batman",
+      "precio": "120.00",
       "imagen": "images/batman.jpg",
-      "id": 6
+      "id": "6"
+    },
+    {
+      "id": "5ac7",
+      "nombre": "Goku",
+      "precio": "55.00",
+      "imagen": "images/goku.jpg"
+    },
+    {
+      "id": "2917",
+      "nombre": "Goku",
+      "precio": "55.00",
+      "imagen": "images/goku.jpg"
     }
   ]
 }

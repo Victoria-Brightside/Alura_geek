@@ -69,6 +69,18 @@ padding:1rem;
     padding:1rem;
 }
 
+.delete-button{
+    background:none;
+    border:none;
+width:3rem;
+height:3rem;
+margin-top: .8rem;
+}
+
+.delete_img {
+object-fit: cover;
+    }
+
 /* FORMULARIO */
 
 .add h1{
