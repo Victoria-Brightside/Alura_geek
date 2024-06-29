@@ -1,2 +1,10 @@
 # Alura_geek
-Proyecto del programa One Alura con uso de html, css, manipulación del DOM
+Proyecto del programa One Oracle Next Education en conjunto con Alura LATAM
+
+##Tecnologias usadas
+- HTML
+- CSS
+- Javascript
+- Manipulación del DOM
+- Media Queries
+- Diseño responsivo
