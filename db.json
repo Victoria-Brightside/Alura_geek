@@ -19,22 +19,22 @@
       "id": "5"
     },
     {
-      "nombre": "Batman",
-      "precio": "120.00",
-      "imagen": "images/batman.jpg",
-      "id": "6"
-    },
-    {
-      "id": "1600",
+      "id": "dedc",
       "nombre": "Goku",
-      "precio": "55.00",
+      "precio": "150.00",
       "imagen": "images/goku.jpg"
     },
     {
-      "id": "18f2",
+      "id": "9f0f",
       "nombre": "Pokebola",
-      "precio": "200.00",
+      "precio": "170.00",
       "imagen": "images/pokebola.jpg"
+    },
+    {
+      "id": "6779",
+      "nombre": "Batman",
+      "precio": "250.00",
+      "imagen": "images/batman.jpg"
     }
   ]
 }
