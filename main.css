@@ -31,10 +31,20 @@ header {
 }
 
 .supergrid {
-    display: grid;
-    grid-template-columns: 50vw 50vw;
-    grid-template-rows: 50vh;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    align-items: center;
     gap: 2rem;
+}
+
+.add_btn {
+color:white;
+background-color: forestgreen;
+padding:1rem;
+margin:2rem;
+width: 40vw;
+
 }
 
 .products {
@@ -179,9 +189,7 @@ p {
     }
 
     .supergrid {
-        display: grid;
-        grid-template-columns: 100vw;
-        grid-template-rows: 50vh;
+        
     }
 
     .products {

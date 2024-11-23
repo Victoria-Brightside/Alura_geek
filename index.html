@@ -19,6 +19,7 @@
     </header>
 
     <main class="supergrid">
+        <button class="add_btn"> Agregar producto </button>
         <section class="products">
             <h1> MIS PRODUCTOS:</h1>
             <ul class="container" data-lista>
@@ -27,22 +28,7 @@
         </section>
 
 
-        <section class="add">
-            <h1> AGREGAR PRODUCTO:</h1>
-            <form class="formulario" data-formulario>
-                <div class="form-group">
-                    <input id="name" name="name" type="text" placeholder=" Nombre" required data-nombre>
-                    <input id="price" name="price" type="number" placeholder=" Precio (00.00)" required data-precio>
-                    <input id="image" name="image" type="text" placeholder=" Inserta URL" required data-imagen>
-                    <div class="form-button">
-                        <input id="enviar" name="enviar" type="submit" value="ENVIAR">
-                        <input id="limpiar" name="limpiar" type="reset" value="LIMPIAR">
-                    </div>
-                </div>
-        </section>
-
         <script src="js/mostrarProductos.js" type="module"></script>
-        <script src="js/crearProducto.js" type="module"></script>
 
     </main>
 
