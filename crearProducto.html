@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <title>Alura Geek</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/controlvideo.svg" alt="Imagen de un control de consola de videojuego" class="logo">
+        <h1>Alura Geek</h1>
+        <img src="images/controlvideo.svg" alt="Imagen de un control de consola de videojuego" class="logo">
+    </header>
+    <main>
+        <section class="add">
+            <h1> AGREGAR PRODUCTO:</h1>
+            <form class="formulario" data-formulario>
+                <div class="form-group">
+                    <input id="name" name="name" type="text" placeholder=" Nombre" required data-nombre>
+                    <input id="price" name="price" type="number" placeholder=" Precio (00.00)" required data-precio>
+                    <input id="image" name="image" type="text" placeholder=" Inserta URL" required data-imagen>
+                    <div class="form-button">
+                        <input id="enviar" name="enviar" type="submit" value="ENVIAR">
+                        <input id="limpiar" name="limpiar" type="reset" value="LIMPIAR">
+                    </div>
+                </div>
+        </section>
+
+        <script src="js/crearProducto.js" type="module"></script>
+
+    </main>
+
+    <footer>
+        <div class="minifooter">
+            <img src="images/controlvideo.svg" alt="Imagen de un control de consola de videojuego" class="footer_logo">
+            <h1>Alura Geek</h1>
+            <img src="images/controlvideo.svg" alt="Imagen de un control de consola de videojuego" class="footer_logo">
+        </div>
+        <p> Desarrollado por Victoria Bernal <br> ALURA LATAM 2024 </p>
+    </footer>
+
+</body>
+
+</html>
