@@ -3,38 +3,38 @@
     {
       "nombre": "BB8",
       "precio": "100.00",
-      "imagen": "images/bb8.jpg",
+      "imagen": "https://unsplash.com/es/fotos/figura-de-buho-de-ceramica-blanca-amarilla-y-roja-DivUXJCgiB8",
       "id": "3"
     },
     {
       "nombre": "Charizard",
       "precio": "30.00",
-      "imagen": "images/charizard.jpg",
+      "imagen": "https://unsplash.com/es/fotos/una-figura-de-juguete-de-un-pokemon-amarillo-sentado-encima-de-una-mesa-VmaN2mTSH2Y",
       "id": "4"
     },
     {
       "nombre": "Mario",
       "precio": "70.00",
-      "imagen": "images/mario.jpg",
+      "imagen": "https://unsplash.com/es/fotos/figura-de-super-mario-sobre-superficie-marron-_R95VMWyn7A",
       "id": "5"
     },
     {
       "id": "dedc",
       "nombre": "Goku",
       "precio": "150.00",
-      "imagen": "images/goku.jpg"
+      "imagen": "https://unsplash.com/es/fotos/figura-de-accion-de-juguete-sR1BaDlRSKM"
     },
     {
       "id": "9f0f",
       "nombre": "Pokebola",
       "precio": "170.00",
-      "imagen": "images/pokebola.jpg"
+      "imagen": "https://unsplash.com/es/fotos/un-primer-plano-de-una-bola-roja-y-blanca-sobre-un-escritorio-AC900dsklkk"
     },
     {
       "id": "6779",
       "nombre": "Batman",
       "precio": "250.00",
-      "imagen": "images/batman.jpg"
+      "imagen": "https://unsplash.com/es/fotos/un-lego-batman-de-pie-sobre-un-fondo-amarillo-U6LCozNcIKE"
     }
   ]
 }
