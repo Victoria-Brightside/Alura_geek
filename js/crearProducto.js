@@ -11,9 +11,9 @@ async function crearProducto(evento){
     const imagen= document.querySelector("[data-imagen]").value;   
 
 await conexionAPI.crearProducto(nombre,precio,imagen);
-
 alert("Producto agregado exitosamente!");
 
 }
 
+formulario.addEventListener("submit", evento => crearProducto(evento));
 formulario.addEventListener("submit", evento => crearProducto(evento));
