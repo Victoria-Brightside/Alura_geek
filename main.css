@@ -43,6 +43,7 @@ header {
     margin: 2rem;
     width: 40vw;
     border-radius: 8px;
+    font-size: 1.8rem;
     text-align: center;
     border: none;
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
@@ -53,7 +54,7 @@ header {
     background-color: #2cb42c;
     transform: scale(1.05);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    font-size: medium;
+    font-size: 2rem;
 }
 
 .add_btn:active {
@@ -86,12 +87,15 @@ header {
     align-content: center;
     text-align: center;
     width: 100%;
-    /* Se ajusta al ancho del grid */
     min-height: 250px;
     height: 100%;
     border: 1px solid #000000;
     border-radius: 2rem;
     color: white;
+}
+
+.card:hover{
+    transform: scale(1.05);
 }
 
 .card_img {
@@ -143,6 +147,7 @@ header {
     margin: 2rem;
     width: 10vw;
     border-radius: 8px;
+    font-size:1.8rem;
     text-align: center;
     border: none;
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
@@ -153,7 +158,7 @@ header {
     background-color: #2cb42c;
     transform: scale(1.05);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    font-size: medium;
+    font-size: 2rem;
 }
 
 .inicio_btn:active {
@@ -173,7 +178,7 @@ header {
 }
 
 .add h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 2rem;
 }
 
@@ -194,7 +199,7 @@ header {
 
 input {
     width: 90%;
-    height:2rem;
+    height: 2rem;
     border-radius: 2rem;
 }
 
@@ -239,16 +244,43 @@ p {
 
     .header {
         background-size: 250px;
-        font-size: 1.5rem;
+        gap: 1rem;
+        text-align: center;
     }
 
-    .supergrid {}
+    .header_title {
+        font-size: 3.5rem;
+    }
 
-    .products {
-        order: 1
+
+    .logo {
+        width: 5rem;
+        height: 5rem;
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .products h1, .add h1 {
+        font-size: 2.6rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .card {
-        min-width: 250px;
+        min-width: 200px;
+        width: 400px;
+    }
+
+    .add_btn, .inicio_btn{
+        width: 30vw;
+        font-size: 1.3rem;
+    }
+
+    .add_btn:hover, .inicio_btn:hover {
+        font-size: 1.5rem;
     }
 }
