@@ -23,7 +23,7 @@ async function crearProducto(nombre, precio, imagen) {
 }
 
 async function eliminarProducto(id){
-    const conexion = await fetch(`https://67e440e42ae442db76d3b2bc.mockapi.io/alurageek/Products_Alura${id}`, {
+    const conexion = await fetch(`https://67e440e42ae442db76d3b2bc.mockapi.io/alurageek/Products_Alura/${id}`, {
         method: "DELETE",
         headers: { "Content-type": "application/json", },
     })
