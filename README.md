@@ -8,6 +8,11 @@ Este programa es una aplicación web que permite gestionar una lista de producto
 
 ✅ **Eliminar productos:** Cada card tiene un botón de eliminación que, al hacer clic, borra el producto de la base de datos de la API y lo elimina de la interfaz.
 
+![alura_geek](https://github.com/user-attachments/assets/f06a47ce-f23d-40f8-9e5e-987e442979ee)
+
+
+![alura_geek2](https://github.com/user-attachments/assets/838c0f85-641f-4a5f-82da-7e888474dd12)
+
 ## Tecnologias usadas
 - HTML
 - CSS
